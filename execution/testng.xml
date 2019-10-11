@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Milestone 1" verbose="1" preserve-order="true">
+  <test name="Registration Authentication" preserve-order="true">
+    <classes>
+      <class name="registrationAuthentication.Login"/>
+      <class name="registrationAuthentication.Registration"/>
+      <class name="registrationAuthentication.ForgotPassword"/>
+    </classes>
+  </test> <!-- Registration & Authentication -->
+  <test name="Map Layer Settings" preserve-order="true">
+    <classes>
+      <class name="mapLayerSettings.MapOverview"/>
+      <class name="mapLayerSettings.SiteInformation"/>
+      <class name="mapLayerSettings.ToolsMainMenu"/>
+      <class name="layerSettings.General"/>
+      <class name="layerSettings.Layers"/>
+      <class name="layerSettings.DriveTest"/>
+      <class name="layerSettings.BenchMarking"/>
+      <class name="layerSettings.Kpi"/>
+      <class name="layerSettings.KpiD"/>
+      <class name="layerSettings.KpiC"/>
+      <class name="layerSettings.MultiTechnology"/>
+      <class name="layerSettings.CapacityOffender"/>
+      <class name="layerSettings.NeighborListing"/>
+    </classes>
+  </test> <!-- Map Layer Settings -->
+</suite> <!-- Milestone 1 -->
